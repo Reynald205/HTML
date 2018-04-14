@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+
+<head>
+
+<script>//Object creation script
+function person(name, age){
+	this.name = name;
+	this.age = age;
+	this.retire = remain;
+}
+var nair = new person("Nair", 26);
+var taylor = new person("Taylor Swift", 20);
+
+function remain(){
+	var numyears = 65 - this.age;
+	return numyears;
+}
+
+//Another way to create objects
+	tayu = {name:"Tayuya", age:28};
+	fighter ={name: "Taylor", age:22};
+
+</script>
+
+</head>
+
+
+<body>
+
+<script type="text/javascript">
+var tuna = "John said,\"boy do I love bessie\" ";/*escape character needed */
+var x = 23; /*var is used to declare a variable all end in ;,case sensitive */
+var y = " hey now brown cow ";
+document.write("What did John say? " + tuna);/* + is used to add var to text. */
+document.write(x +"<br/>");
+document.write(nair.name +"<br/>");
+document.write(taylor.retire() +" years left");//must include () when using a function outside the object.
+</script>
+<hr />
+
+<script>
+function eat(x){ 
+	alert("Ouch" + x);
+}
+eat(" DOOD");
+
+function box(one, two){ /*Function with multiple parameters. */
+	document.write(one +" is better than " + two + "<br/>"); 
+	} // "<br/>" is added this way to endl.
+box("Peaches", "creme");
+box("Smart", "stupid");  
+box("Anything", "beiber");
+
+function easy(){
+	return "ROFLMAO"
+}
+document.write (easy() +"<br/>");
+
+var pie = prompt("Enter your name:","");//Method to create a prompt. "" controls what is set in text box.
+	document.write("Hello "+ pie +"<br/>");
+
+document.write(tayu.name +" loves to hear "+ fighter.name +" music because she's " + tayu.age);
+
+
+</script>
+
+<form>
+<input type="button" value="Click ME" onclick="box('Waifu', ' hoes');"/> 
+<!--parameters are set with '' and ends with a ;-->
+</form>
+
+<hr />
+
+<a href="index.html" title="restart"><img src="butterfly_master.jpg" height="150">
+<a/>
+
+</body>
+
+</html>
